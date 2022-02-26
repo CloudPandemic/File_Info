@@ -10,4 +10,4 @@ if len(val) > 1 :
             with open(arg,'rb') as f:
                 print(chardet.detect( f.read() ) )
 else:
-    print("引数が未設定")
+    print("No argument is set, so no information can be retrieved. You need to specify the file you want to look up as an argument.")
